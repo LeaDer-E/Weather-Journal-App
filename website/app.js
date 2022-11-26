@@ -103,7 +103,7 @@ generateButtonElement.addEventListener("click", async () => {
   }
   try {
     let region = document.querySelector("select").value.toLowerCase();
-    region = "us"; // i make it country code "us" onlybecause i didn't fount any other working country
+    region = "us"; // i make it country code "us" only because i didn't fount any other working country
     const metTemperature = await metricTemperature(apiLink, inputElement.value, region, apiKey);
     const impTemperature = await imperialTemperature(apiLink, inputElement.value, region, apiKey);
     const fullMetricTemperature = Math.round(metTemperature.main.temp);
