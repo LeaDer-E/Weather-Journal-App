@@ -220,7 +220,7 @@ function helperAttribute(theElement, theAttribute) {
 /* Change "input" Attribute from "text" to "number"
  * Then make "maxlength: 5" and Finally Capitalize some letters at "Placeholder" */
 helperAttribute(inputElement, {
-  "maxlength": 10,
+  "maxlength": 5,
   "type": "number",
   "oninput": "javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);",
   "placeholder": "Please Enter Your ZIP Code Here",
