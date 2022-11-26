@@ -1,4 +1,5 @@
-# Weather-Journal App Project
+
+# Black Weather Journal App
 
 * A program to measure the temperature with three different units of measurement.
 * Among the requirements for graduation from the second level in nano-degree
@@ -16,11 +17,6 @@
 
 * I made changes to the HTML and CSS file
 
-## Authors
-
-- [@LeaDer-E](https://www.github.com/LeaDer-E)
-
-
 ## Optimizations
 
 The country options have been added, but unfortunately I think that there is a problem with the site [OpenWeatherMap](https://openweathermap.org/) there are no countries that work except the United States, so the line:
@@ -29,6 +25,11 @@ The country options have been added, but unfortunately I think that there is a p
 ```
 
 was added to be the only choice in the API is the states.
+## Demo
+
+![Random GIF](https://media.giphy.com/media/MFmM2tWXL192oVKxUT/giphy.gif)
+
+
 ## Run Locally
 
 Clone the project
@@ -59,11 +60,34 @@ Start the server
 ```
 
 
-## Support
+## Known Issues
 
-For support, email fake@fake.com or join our Slack channel.
+Any issues are usually because the underlying browser automation framework has a
+bug or inconsistency. Where possible, we try to cover up these underlying
+problems in the client, but sometimes workarounds require higher-level
+intervention.
+try to restart the code or change the vedio link
+Please feel free to file an [issue][issue] if this client doesn't work as
+expected.
+
+[issue]: https://github.com/LeaDer-E/Weather-Journal-App/issues/new
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/LeaDer-E/Weather-Journal-App/main/WJA.jpg?token=GHSAT0AAAAAAB3VCNAZOA3M2742WNL6QC6GY4CAAWQ)
+
+
+## Author's name.
+- [@Eslam Mustafa](https://github.com/LeaDer-E/)
+
+
+## Cridit
+
+- Copyright © Eslam Mustafa 🌹
+
+
+♥ I hope you like my project, thank you ♥
+
+
+![Logo](https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg)
