@@ -118,7 +118,7 @@ generateButtonElement.addEventListener("click", async () => {
       temp: `<span> Celsius Temprature:</span> ${fullMetricTemperature} (°C)`,
       newTemp: `<span> Fahrenheit Temprature:</span> ${fullImperialTemperature} (°F)`,
       lastTemp: `<span> Kelvin Temprature:</span> ${fullKelvinTemperature} (K)`,
-      windSpeed: `<span> Wind Speed:</span> ${impTemperature.wind.speed} km/h`,
+      windSpeed: `<span> Wind Speed:</span> ${impTemperature.wind.speed} (km/h)`,
       feelings: `<span> Fellings:</span> ${textAreaElement.value}`
     })
     console.log(serverData)
