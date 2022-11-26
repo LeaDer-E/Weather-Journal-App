@@ -1,0 +1,313 @@
+
+
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* min-height: 100%; */
+    color: white;
+}
+
+div {
+  flex-direction: column;
+  justify-content: center;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+
+}
+.container{
+  display:grid;
+  height: auto;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: 100px 440px 60px;
+  grid-template-areas:
+  "HH HH HH HH HH HH HH HH HH HH"
+  "SS SS SS SS SS CC CC CC CC CC"
+  "FF FF FF FF FF FF FF FF FF FF";
+  border: 2px solid rgb(19, 56, 78);
+}
+
+.box{
+	border: 1px solid rgb(19, 56, 78);
+	background: #000000;
+}
+
+
+.header{
+	grid-area: HH;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size:60px;
+  font-family: Copperplate, Papyrus, fantasy;
+  /* Make an Amazing bg */
+  background-color: #00DBDE;
+  background: linear-gradient(315deg, rgba(251,252,69,1) 30%, rgba(69,252,241,1) 50%, rgba(252,69,226,1) 70%);
+  /* make it Amazing */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 50px #FF0000, 0 0 20px #0000FF;
+  text-align: center;
+
+}
+
+.footer{
+	grid-area: FF;
+	text-align: center;
+  color: darkcyan;
+  grid-template-areas: "LL CE CE RR";
+  display: grid;
+  grid-template-columns: repeat(1, 85%);
+  align-content: center;
+}
+
+.udacity{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 3px solid darkcyan; */
+}
+
+.leftfooter{
+  grid-area: LL CE CE;
+}
+
+.rightfooter{
+  grid-area: RR;
+}
+
+.sidebar{
+	grid-area: CC;
+}
+
+.content{
+	grid-area: SS;
+}
+
+#app{
+    /* grid-area: CC; */
+    /* display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    height:100vh;
+    background: #f23557;
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; */
+}
+
+.holder{
+  line-height: auto;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    line-height: auto;
+}
+
+#entryHolder{
+  line-height: auto;
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#temp2{
+
+}
+
+#content{
+
+}
+
+.headline {
+
+}
+
+span{
+}
+
+.title{
+  display:block;
+  font-size: 22px;
+  text-align: center;
+  color: #c471ed;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 22px;
+    text-align: center;
+    color: #c471ed;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+select{
+  /* width: 70vh;
+  height: 60px;
+  font-size: 25px;
+  text-align: center;
+  background: black;
+  color: darkcyan;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  background-image: linear-gradient(90deg, gold 0%, gold 0%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  box-sizing: border-box;
+  border: 3px solid darkcyan;
+  margin: 5px; */
+
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  width: 70vh;
+  height: 60px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid darkcyan;
+  border-radius: 6px;
+  background-color: hsla(201.4, 48.3%, 11.4%, 0.99);
+  color: gold;
+  margin: 5px;
+}
+
+input{
+    width: 70vh;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid darkcyan;
+    border-radius: 6px;
+    background-color: hsla(201, 42%, 44%, .25);
+    font-size: 16px;
+    resize: none;
+    color: gold;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+input:before {
+  width: 70vh;
+  height: 60px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid darkcyan;
+  border-radius: 6px;
+  background-color: hsla(201, 42%, 44%, .25);
+  font-size: 16px;
+  resize: none;
+  color: gold;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    margin: 10px;
+}
+
+
+.button {
+  background: rgb(0,0,0);
+  background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(35,132,164,1) 100%);
+  padding: 5px;
+  border: 3px solid darkcyan;
+  opacity: 5.6;
+  width: 20vh;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 1000;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-weight: bold;
+  color: gold;
+}
+
+.button:hover{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,132,164,1) 100%);
+  color: gold;
+  opacity: 9;
+}
+
+ /* button:focus {
+   background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,0,0,1) 100%);
+   color: #FF00AA;
+} */
+
+
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    /* background:#22b2da;
+    color: #f0d43a; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 70vh;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid darkcyan;
+    border-radius: 6px;
+    background-color: hsla(201, 42%, 44%, .25);
+    resize: none;
+    color: gold;
+    margin: 5px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: darkcyan;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: darkcyan;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: darkcyan;
+    font-family: 'Oswald', sans-serif;
+}
