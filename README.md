@@ -75,7 +75,7 @@ expected.
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/LeaDer-E/Weather-Journal-App/main/WJA.jpg?token=GHSAT0AAAAAAB3VCNAZOA3M2742WNL6QC6GY4CAAWQ)
+![App Screenshot](https://raw.githubusercontent.com/LeaDer-E/Weather-Journal-App/main/WJA.jpg?token=GHSAT0AAAAAAB3VCNAZUDVQLBHRYEVYB2TOY4CAKDA)
 
 
 ## Author's name.
