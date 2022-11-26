@@ -41,7 +41,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Weather-Journal-App
 ```
 
 Install dependencies
