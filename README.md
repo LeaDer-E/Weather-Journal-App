@@ -21,7 +21,7 @@
 
 The country options have been added, but unfortunately I think that there is a problem with the site [OpenWeatherMap](https://openweathermap.org/) there are no countries that work except the United States, so the line:
 ```
- region = "us"; // i make it country code "us" onlybecause i didn't fount any other working country
+ region = "us"; // i make it country code "us" only because i didn't fount any other working country
 ```
 
 was added to be the only choice in the API is the states.
