@@ -62,13 +62,13 @@ Start the server
 
 ## Known Issues
 
-Any issues are usually because the underlying browser automation framework has a
-bug or inconsistency. Where possible, we try to cover up these underlying
-problems in the client, but sometimes workarounds require higher-level
-intervention.
-try to restart the code or change the vedio link
-Please feel free to file an [issue][issue] if this client doesn't work as
-expected.
+Any issues are usually because  a bug or inconsistency. Where possible, 
+we try to cover up these underlying problems in the client, 
+but sometimes workarounds require higher-level intervention. 
+try to restart the server, Please feel free to file an [issue][issue] if 
+this client doesn't work as expected.
+
+
 
 [issue]: https://github.com/LeaDer-E/Weather-Journal-App/issues/new
 
